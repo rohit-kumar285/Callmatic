@@ -1,0 +1,4 @@
+speech-assistant-openai-realtime-api-python/venv
+speech-assistant-openai-realtime-api-python/local.env
+TWILIO/venv
+VONAGE/venv
