@@ -13,10 +13,10 @@ ngrok_url = os.environ["ngrok_url"]
 app = FastAPI()
 
 # Replace these with your actual Twilio credentials and numbers
-ACCOUNT_SID = "ACe3e7e82ff52556487ef6d26c13b1256c"
-AUTH_TOKEN = "2a596bc72dd19687d065ea7c971d4b93"
-TWILIO_NUMBER = "+17604770561"
-TO_NUMBER = "+919759279921"  # Your number to test the call
+ACCOUNT_SID = ""
+AUTH_TOKEN = ""
+TWILIO_NUMBER = ""
+TO_NUMBER = ""  # Your number to test the call
 
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
